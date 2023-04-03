@@ -2,9 +2,9 @@
 layout: default
 title: Functions
 parent: Python
-grand_parent: Data Science Notes
+grand_parent: Data science notes
 permalink: /docs/data-science-notes/python/functions/
-nav_order: 1
+nav_order: 4
 ---
 
 # Functions

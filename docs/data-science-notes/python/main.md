@@ -1,11 +1,9 @@
 ---
 layout: default
 title: Python
-parent: Data Science Notes
+parent: Data science notes
 has_children: true
 nav_order: 1
 ---
 
 # Python
-
-My Python notes.
