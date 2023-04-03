@@ -11,13 +11,13 @@ nav_order: 9
 
 [Documentation](https://docs.scipy.org/doc/numpy/user/basics.html)
 
-#### Import
+## Import
 
 ```python
 import numpy as np
 ```
 
-#### Create arrays
+## Create arrays
 
 NumPy ndarrays can contain only one type. Upon conversion, the main type is picked by NumPy and items that cannot be coerced to this type are replaced by `nan`.
 
@@ -29,37 +29,37 @@ x = np.random.random((2,2)) # random 2x2 array
 x = np.arange(start, stop, step) # array with incremental values
 ```
 
-#### Modify arrays
+## Modify arrays
 
-##### Replace values
+### Replace values
 
 ```python
 x[location_of_values] = new_value
 ```
 
-##### Add values
+### Add values
 
 ```python
 new_array = np.concatenate([array_1, array_2], axis=1) # concatenate column to column, axis=0 for row to row
 x = np.expand_dims(x,axis=0) # changes dimension of array from e.g. (3,) to (1,3) - or (3,1) if axis=1 - as same dimension is required for concatenation
 ```
 
-##### Sort values
+### Sort values
 
 ```python
 ordered_idx = np.argsort(a_column)
 x_sorted = x[ordered_idx]
 ```
 
-##### Reshape
+### Reshape
 
 ```python
 x_matrix = x_list.reshape(3,3) # shrink a list to reshape as 3x3 matrix
 ```
 
-#### Subset arrays
+## Subset arrays
 
-##### Slice
+### Slice
 
 ```python
 x[0] # first row, all columns
@@ -70,7 +70,7 @@ x[1:7:2] # start, stop, step - if start and stop empty, starts at zero and ends 
 x[[0,2],[1,1]] # makes pairs x[0,1] and x[2,1]
 ```
 
-##### Filter
+### Filter
 
 Create a boolean array for selecting values meeting a certain criteria.
 
@@ -79,7 +79,7 @@ blue_true = colour_col == "blue"
 rows_where_blue_true = x[blue_true]
 ```
 
-#### Arithmetic
+## Arithmetic
 
 ```python
 x.sum(axis=0) # sum across columns (axis = 1 for rows)
@@ -88,7 +88,7 @@ x.min() #faster than built-in min() function
 x.max() #faster than built-in max() function
 ```
 
-#### Miscellaneous
+## Miscellaneous
 
 ```python
 x.shape # dimension

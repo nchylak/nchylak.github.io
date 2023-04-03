@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Object-oriented programming
+title: OOP
 parent: Python
 grand_parent: Data science notes
 permalink: /docs/data-science-notes/python/oop/
