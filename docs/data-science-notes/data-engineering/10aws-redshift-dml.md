@@ -3,8 +3,8 @@ layout: default
 title: Redshift DML
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/aws-redshift-dml/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/10aws-redshift-dml/
+nav_order: 10
 ---
 
 # Redshift DML

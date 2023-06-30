@@ -3,8 +3,8 @@ layout: default
 title: Spark
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/spark/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/15spark/
+nav_order: 15
 ---
 
 # Spark

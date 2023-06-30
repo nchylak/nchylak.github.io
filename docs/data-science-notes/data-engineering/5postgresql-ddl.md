@@ -3,8 +3,8 @@ layout: default
 title: PostgreSQL DDL
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/postgresql-ddl/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/5postgresql-ddl/
+nav_order: 5
 ---
 
 # PostgreSQL DDL

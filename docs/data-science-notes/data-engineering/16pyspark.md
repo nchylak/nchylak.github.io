@@ -3,8 +3,8 @@ layout: default
 title: PySpark
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/pyspark/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/16pyspark/
+nav_order: 16
 ---
 
 # PySpark

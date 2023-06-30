@@ -3,8 +3,8 @@ layout: default
 title: NoSQL databases
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/databases-nosql/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/11databases-nosql/
+nav_order: 11
 ---
 
 # NoSQL databases

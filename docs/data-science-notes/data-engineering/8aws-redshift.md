@@ -3,8 +3,8 @@ layout: default
 title: Amazon Redshift
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/aws-redshift/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/8aws-redshift/
+nav_order: 8
 ---
 
 # Amazon Redshift

@@ -3,8 +3,8 @@ layout: default
 title: Dimensional data modeling
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/dimensional-data-modeling/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/2dimensional-data-modeling/
+nav_order: 2
 ---
 
 # Dimensional data modeling

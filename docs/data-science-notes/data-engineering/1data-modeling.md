@@ -3,8 +3,8 @@ layout: default
 title: Data modeling
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/data-modeling/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/1data-modeling/
+nav_order: 1
 ---
 
 # Data modeling

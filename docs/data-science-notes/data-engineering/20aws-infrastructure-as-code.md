@@ -3,8 +3,8 @@ layout: default
 title: AWS infrastructure as code
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/aws-infrastructure-as-code/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/20aws-infrastructure-as-code/
+nav_order: 20
 ---
 
 # AWS infrastructure as code

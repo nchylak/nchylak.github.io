@@ -3,8 +3,8 @@ layout: default
 title: Relational databases
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/databases-relational/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/4databases-relational/
+nav_order: 4
 ---
 
 # Relational databases

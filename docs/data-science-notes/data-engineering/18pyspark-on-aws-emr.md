@@ -3,8 +3,8 @@ layout: default
 title: PySpark on AWS EMR
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/pyspark-on-aws-emr/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/18pyspark-on-aws-emr/
+nav_order: 18
 ---
 
 # PySpark on AWS EMR

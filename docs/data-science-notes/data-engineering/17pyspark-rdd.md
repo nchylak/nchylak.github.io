@@ -3,8 +3,8 @@ layout: default
 title: PySpark RDDs
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/pyspark-rdd/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/17pyspark-rdd/
+nav_order: 17
 ---
 
 # PySpark RDDs

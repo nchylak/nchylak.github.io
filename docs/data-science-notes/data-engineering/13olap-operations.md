@@ -3,8 +3,8 @@ layout: default
 title: OLAP cubes
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/olap-operations/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/13olap-operations/
+nav_order: 13
 ---
 
 # OLAP cubes

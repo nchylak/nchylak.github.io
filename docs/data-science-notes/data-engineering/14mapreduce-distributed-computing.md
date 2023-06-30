@@ -3,8 +3,8 @@ layout: default
 title: MapReduce and distributed computing
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/mapreduce-distributed-computing/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/14mapreduce-distributed-computing/
+nav_order: 14
 ---
 
 # MapReduce and distributed computing

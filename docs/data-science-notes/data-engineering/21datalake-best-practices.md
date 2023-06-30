@@ -3,8 +3,8 @@ layout: default
 title: Data lake best practices
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/datalake-best-practices/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/21datalake-best-practices/
+nav_order: 21
 ---
 
 # Data lake best practices

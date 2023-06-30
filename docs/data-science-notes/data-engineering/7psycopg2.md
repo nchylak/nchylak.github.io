@@ -3,8 +3,8 @@ layout: default
 title: Psycopg2
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/psycopg2/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/7psycopg2/
+nav_order: 7
 ---
 
 # Psycopg2

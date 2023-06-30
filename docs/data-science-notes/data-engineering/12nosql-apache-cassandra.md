@@ -3,8 +3,8 @@ layout: default
 title: Apache Cassandra
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/nosql-apache-cassandra/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/12nosql-apache-cassandra/
+nav_order: 12
 ---
 
 # Apache Cassandra

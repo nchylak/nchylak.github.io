@@ -3,7 +3,7 @@ layout: default
 title: Data warehouses
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/data-warehouses/
+permalink: /docs/data-science-notes/data-engineering/3data-warehouses/
 nav_order: 3
 ---
 

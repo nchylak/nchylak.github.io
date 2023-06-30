@@ -3,8 +3,8 @@ layout: default
 title: Apache Airflow
 parent: Data engineering
 grand_parent: Data science notes
-permalink: /docs/data-science-notes/data-engineering/apache-airflow/
-nav_order: 3
+permalink: /docs/data-science-notes/data-engineering/19apache-airflow/
+nav_order: 19
 ---
 
 # Apache Airflow
