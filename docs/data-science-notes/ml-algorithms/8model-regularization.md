@@ -86,9 +86,7 @@ sgd_reg.predict([[1.5]])
 
 Elastic Net is a middle ground between Ridge Regression and Lasso Regression. When r = 0, Elastic Net is equivalent to Ridge Regression, and when r = 1, it is equivalent to Lasso Regression.
 
-$$
-J(\boldsymbol{\theta}) = \text{MSE}(\boldsymbol{\theta}) + r \alpha \sum\limits_{i=1}^{n}\left| \theta_i \right| + \dfrac{1 - r}{2} \alpha \sum\limits_{i=1}^{n}{{\theta_i}^2}
-$$
+$$J(\theta) = \text{MSE}(\theta) + r \alpha \sum\limits_{i=1}^{n}\left| \theta_i \right| + \dfrac{1 - r}{2} \alpha \sum\limits_{i=1}^{n}{{\theta_i}^2}$$
 
 ```python
 from sklearn.linear_model import ElasticNet
