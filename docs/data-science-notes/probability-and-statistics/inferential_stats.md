@@ -41,7 +41,7 @@ All estimators have two properties, **efficiency** and **bias**:
 - **Normal**: the sampling distribution of the proportion needs to be approximately normal: This should be true if the number of expected successes and expected failures is at least 10 (for both)
 - **Independent**: if sample was drawn without replacement, the sample must not represent more than 10% of the total population
 
-:warning: Independence allows to calculate standard error as ![](../../../assets/images/se_prop.png) with $$n$$ = sample size and $$\hat p$$ = hypothesized value of p.
+:warning: Independence allows to calculate standard error as $$\sigma_{\hat p} \approx \sqrt{\frac{\hat p \left(1 - \hat p\right)}{n}}$$ with $$n$$ = sample size and $$\hat p$$ = hypothesized value of p.
 
 #### Parameter: mean
 
