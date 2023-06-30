@@ -15,7 +15,7 @@ nav_order: 2
 
 Also called **average**. The sum of all values divided by the number of values.
 
-​	$\text{mean}=\dfrac{\sum{x_i}}{n}$
+​	$mean=\frac{\sum_{k=1}^n x_i}{n}$c
 
 - $\mu$ is the mean of the **population**
 - $ \bar{x}$ is the mean of the **sample**
