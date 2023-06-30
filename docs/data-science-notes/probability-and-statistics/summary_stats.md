@@ -143,7 +143,3 @@ Here are some important facts about z-scores:
 - A negative z-score says the data point is below average.
 - A z-score close to 0 says the data point is close to average.
 - A data point can be considered unusual if its z-score is above 3 or below -3
-
-
-
-$$P\left(\hat{p} < 0.85\right)=P\left(z<\dfrac{\hat{p}-p}{\sqrt{\dfrac{p\left(1-p\right)}{n}}}\right)$$
