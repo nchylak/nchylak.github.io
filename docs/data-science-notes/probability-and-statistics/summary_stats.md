@@ -15,9 +15,9 @@ nav_order: 2
 
 Also called **average**. The sum of all values divided by the number of values.
 
-​	$mean=\frac{\sum_{k=1}^n x_i}{n}$
+​	$$mean=\frac{\sum_{k=1}^n x_i}{n}$$
 
-- $\mu$ is the mean of the **population**
+- $$\mu$$ is the mean of the **population**
 - $ \bar{x}$ is the mean of the **sample**
 
 ```python
