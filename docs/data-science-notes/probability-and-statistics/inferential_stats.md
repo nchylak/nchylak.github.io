@@ -58,9 +58,9 @@ All estimators have two properties, **efficiency** and **bias**:
 
   
 
-:warning: Independence allows us to calculate the standard deviation of $$\bar x$$ (using the population standard deviation $$σ$$): ![](../../../assets/images/std_mean.png) or the **standard error** of $$\bar x$$ (using the sample standard error $$s$$) if we do not know the population standard deviation $$σ$$:![](../../../assets/images/se_mean.png) ($$n$$ = sample size, $$s_x$$ = sample standard error)
+:warning: Independence allows us to calculate the standard deviation of $$\bar x$$ (using the population standard deviation $$σ$$): $$\sigma_{\bar x} = \frac{\sigma}{\sqrt{n}}$$ or the **standard error** of $$\bar x$$ (using the sample standard error $$s$$) if we do not know the population standard deviation $$σ$$: $$\sigma_{\bar x} \approx \frac{s_x}{\sqrt{n}}$$ ($$n$$ = sample size, $$s_x$$ = sample standard error)
 
-:heart: **Reminder** - sample standard error formula: ![](C:\Users\nadia\Documents\Coding\data_science_notes\probability_and_statistics\../../../assets/images/se.png)
+:heart: **Reminder** - sample standard error formula: $$s = \sqrt{\frac{\sum_{i=1}^{n}\left(x_i-\mu_x\right)^2}{n-1}}$$
 
 ###  Calculation of a confidence interval
 
