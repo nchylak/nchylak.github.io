@@ -17,8 +17,8 @@ nav_order: 4
 
 1. Look at the data observed and pick a possible model (e.g. if the observations are dense around the mean and not dense on the tails, pick the normal distribution).
 2. Find the parameters:
-   1. Calculate the total probability of observing all of the data points. If we assume the observations are independent, then the total probability of observing all of data is the product of observing each data point individually. We obtain a function with $\mu​$ and $\sigma​$ as unknown. 
-   2. We want to derive this function to find $\mu$ and $\sigma$ that maximize the total probability. If the function is hard to derive, we may apply natural logarithm to it first (this is fine as ln is a monotonically increasing function).
+   1. Calculate the total probability of observing all of the data points. If we assume the observations are independent, then the total probability of observing all of data is the product of observing each data point individually. We obtain a function with $$\mu​$$ and $$\sigma​$$ as unknown. 
+   2. We want to derive this function to find $$\mu$$ and $$\sigma$$ that maximize the total probability. If the function is hard to derive, we may apply natural logarithm to it first (this is fine as ln is a monotonically increasing function).
    3. We solve for the derivative equal to zero and find maxima and minima. The parameters we are looking for are ideally the ones for the global maximum.
 
 ## Expectation-maximization algorithm

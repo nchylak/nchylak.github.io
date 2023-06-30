@@ -15,7 +15,7 @@ Estimation is the process used to make inferences, from a sample, about an unkno
 
 In Statistics, to infer the value of an unknown parameter we use **estimators**. 
 
-For example, the sample mean ($\bar x​$) is a point estimation of the population’s mean ($\mu​$). The same goes for the sample variance ($s^2​$) which is an estimate of the population’s variance ($\sigma​$).
+For example, the sample mean ($$\bar x​$$) is a point estimation of the population’s mean ($$\mu​$$). The same goes for the sample variance ($$s^2​$$) which is an estimate of the population’s variance ($$\sigma​$$).
 
 ![](../../../assets/estimator.PNG)
 
@@ -41,7 +41,7 @@ All estimators have two properties, **efficiency** and **bias**:
 - **Normal**: the sampling distribution of the proportion needs to be approximately normal: This should be true if the number of expected successes and expected failures is at least 10 (for both)
 - **Independent**: if sample was drawn without replacement, the sample must not represent more than 10% of the total population
 
-:warning: Independence allows to calculate standard error as ![](../../../assets/se_prop.png) with $n$ = sample size and $\hat p$ = hypothesized value of p.
+:warning: Independence allows to calculate standard error as ![](../../../assets/se_prop.png) with $$n$$ = sample size and $$\hat p$$ = hypothesized value of p.
 
 #### Parameter: mean
 
@@ -58,7 +58,7 @@ All estimators have two properties, **efficiency** and **bias**:
 
   
 
-:warning: Independence allows us to calculate the standard deviation of $\bar x$ (using the population standard deviation $σ$): ![](../../../assets/std_mean.png) or the **standard error** of $\bar x$ (using the sample standard error $s$) if we do not know the population standard deviation $σ$:![](../../../assets/se_mean.png) ($n$ = sample size, $s_x$ = sample standard error)
+:warning: Independence allows us to calculate the standard deviation of $$\bar x$$ (using the population standard deviation $$σ$$): ![](../../../assets/std_mean.png) or the **standard error** of $$\bar x$$ (using the sample standard error $$s$$) if we do not know the population standard deviation $$σ$$:![](../../../assets/se_mean.png) ($$n$$ = sample size, $$s_x$$ = sample standard error)
 
 :heart: **Reminder** - sample standard error formula: ![](C:\Users\nadia\Documents\Coding\data_science_notes\probability_and_statistics\../../../assets/se.png)
 

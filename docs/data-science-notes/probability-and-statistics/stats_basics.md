@@ -41,7 +41,7 @@ nav_order: 1
 
 ## Random variable
 
-$X$: Random variable
+$$X$$: Random variable
 
-$x$: Realization of a random variable
+$$x$$: Realization of a random variable
 

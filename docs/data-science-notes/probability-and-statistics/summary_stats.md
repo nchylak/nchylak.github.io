@@ -15,10 +15,10 @@ nav_order: 2
 
 Also called **average**. The sum of all values divided by the number of values.
 
-​	$$mean=\frac{\sum_{k=1}^n x_i}{n}$$
+​	$$\text{mean}=\dfrac{\sum{x_i}}{n}$$
 
 - $$\mu$$ is the mean of the **population**
-- $ \bar{x}$ is the mean of the **sample**
+- $$ \bar{x}$$ is the mean of the **sample**
 
 ```python
 import numpy
@@ -77,11 +77,11 @@ The **range** represents how far apart the lowest and the highest measurements w
 
 The **IQR** approximates the amount of spread in the middle half of the data points, i.e it is the difference between the upper quartile (the median of the data above the median) and the lower quartile (the median of the data below the median).
 
-​	$\text{IQR}={Q_3}-{Q_1}$
+​	$$\text{IQR}={Q_3}-{Q_1}$$
 
 ## Outliers
 
-A commonly used rule says that a data point is an **outlier** if it is more than $1.5\cdot \text{IQR}​$ above the third quartile or below the first quartile. Said differently, low outliers are below $\text{Q}_1-1.5\cdot\text{IQR}​$ and high outliers are above $\text{Q}_3+1.5\cdot\text{IQR}​$.
+A commonly used rule says that a data point is an **outlier** if it is more than $$1.5\cdot \text{IQR}​$$ above the third quartile or below the first quartile. Said differently, low outliers are below $$\text{Q}_1-1.5\cdot\text{IQR}​$$ and high outliers are above $$\text{Q}_3+1.5\cdot\text{IQR}​$$.
 
 ## Whisker plots 
 
@@ -95,25 +95,25 @@ The standard deviation measures the **dispersion around the mean** in the same u
 
 The formula for the **population** standard deviation is:
 
-​	$\sigma=\sqrt{\dfrac{\sum{(x_i-\mu)^2}}{N}}​$
+​	$$\sigma=\sqrt{\dfrac{\sum{(x_i-\mu)^2}}{N}}​$$
 
 ​	where: 
 
-​	$N$ is the number of data points in the population
+​	$$N$$ is the number of data points in the population
 
-​	$\mu$ is the mean of the population
+​	$$\mu$$ is the mean of the population
 
 The formula for the **sample** standard deviation is:
 
-​	$s=\sqrt{\dfrac{\sum{(x_i-\bar{x})^2}}{n-1}}$	
+​	$$s=\sqrt{\dfrac{\sum{(x_i-\bar{x})^2}}{n-1}}$$	
 
 ​	where: 
 
-​	$n$ is the number of data points in the sample
+​	$$n$$ is the number of data points in the sample
 
-​	$\bar{x}$ is the mean of the sample
+​	$$\bar{x}$$ is the mean of the sample
 
-The **variance** is the squared standard deviation, i.e. $\sigma^2​$ or $s^2​$.
+The **variance** is the squared standard deviation, i.e. $$\sigma^2​$$ or $$s^2​$$.
 
 ## Standard error
 
@@ -123,19 +123,19 @@ It reflects the extent to which a statistic changes from sample to sample.
 
 * For a mean: 
 
-  $SE = s /\sqrt{n}​$
+  $$SE = s /\sqrt{n}​$$
 
 * For the difference between two means:
 
-  $SE = \sqrt{s_1^2/n_1 + s_2^2/n_2}​$
+  $$SE = \sqrt{s_1^2/n_1 + s_2^2/n_2}​$$
 
-  or, assuming equal variances, $SE = s / \sqrt{n_1 + n_2}​$
+  or, assuming equal variances, $$SE = s / \sqrt{n_1 + n_2}​$$
 
 ## z-score
 
 A z-score measures exactly how many standard deviations above or below the mean a data point is.
 
-​	$z=\dfrac{x-\mu}{\sigma}$
+​	$$z=\dfrac{x-\mu}{\sigma}$$
 
 Here are some important facts about z-scores:
 
@@ -146,4 +146,4 @@ Here are some important facts about z-scores:
 
 
 
-$P\left(\hat{p} < 0.85\right)=P\left(z<\dfrac{\hat{p}-p}{\sqrt{\dfrac{p\left(1-p\right)}{n}}}\right)$
+$$P\left(\hat{p} < 0.85\right)=P\left(z<\dfrac{\hat{p}-p}{\sqrt{\dfrac{p\left(1-p\right)}{n}}}\right)$$

@@ -13,11 +13,11 @@ nav_order: 5
 
 ### Random variables
 
-A **random variable**, often noted $X$, is a function that maps every element in a sample space to a real line.
+A **random variable**, often noted $$X$$, is a function that maps every element in a sample space to a real line.
 
 #### Probability mass functions (PMF)
 
-A **probability mass function** is a function that gives the probability that a <u>discrete</u> random variable is exactly equal to some value, i.e. $P(X=x)$.
+A **probability mass function** is a function that gives the probability that a <u>discrete</u> random variable is exactly equal to some value, i.e. $$P(X=x)$$.
 
 A probability mass function differs from a **probability density function** in that the latter is associated with <u>continuous</u> rather than discrete random variables. The values of the PDF are not probabilities as such: a PDF must be integrated over an interval to yield a probability.
 
@@ -31,19 +31,19 @@ A single point gives an expected **frequency**, if large number of repetitions.
 
 #### Cumulative distribution functions (CDF)
 
-The **cumulative distribution function** is a function that gives the probability that a random variable will take a value less than or equal to $x$, i.e. $P(X \leq x)$.
+The **cumulative distribution function** is a function that gives the probability that a random variable will take a value less than or equal to $$x$$, i.e. $$P(X \leq x)$$.
 
 ### Expectation and Moments of the Distribution
 
-**Expected value** ― The expected value of a random variable, also known as the mean value or the first moment, is often noted $E[X]​$ or $\mu​$ and is the value that we would obtain by averaging the results of the experiment infinitely many times.
+**Expected value** ― The expected value of a random variable, also known as the mean value or the first moment, is often noted $$E[X]​$$ or $$\mu​$$ and is the value that we would obtain by averaging the results of the experiment infinitely many times.
 
 **Variance** ― The variance of a random variable, often noted Var(X) or \sigma^2, is a measure of the spread of its distribution function. It is determined as follows:
 
-​	$\mbox{Var}(X)=E[(X-E[X])^2]=E[X^2]-E[X]^2​$
+​	$$\mbox{Var}(X)=E[(X-E[X])^2]=E[X^2]-E[X]^2​$$
 
 **Standard deviation** ― The standard deviation of a random variable, often noted \sigma, is a measure of the spread of its distribution function which is compatible with the units of the actual random variable. It is determined as follows:
 
-​	$\sigma=\sqrt{\mbox{Var}(X)}$
+​	$$\sigma=\sqrt{\mbox{Var}(X)}$$
 
 ## Common distributions
 
@@ -98,23 +98,23 @@ The probability density function of the normal distribution is as follows:
 
 ![PDF of normal distribution](../../../assets/normal_dist.PNG)
 
-Notation: ${\mathcal {N}}(\mu ,\sigma ^{2})$
+Notation: $${\mathcal {N}}(\mu ,\sigma ^{2})$$
 
 Normal distributions have the following features:
 
 - symmetric bell shape
 - mean and median are equal
-- $\approx68\%$ of the data falls within 1 standard deviation of the mean
-- $\approx95\%$ of the data falls within 2 standard deviations of the mean
-- $\approx99.7\%$ of the data falls within 3 standard deviations of the mean
+- $$\approx68\%$$ of the data falls within 1 standard deviation of the mean
+- $$\approx95\%$$ of the data falls within 2 standard deviations of the mean
+- $$\approx99.7\%$$ of the data falls within 3 standard deviations of the mean
 
 :information_source: The normal distribution is also called **Gaussian** distribution or Laplace-Gauss distribution.
 
-The normal distribution with $\mu = 0$ and $\sigma = 1$ is called the **standard normal distribution**.
+The normal distribution with $$\mu = 0$$ and $$\sigma = 1$$ is called the **standard normal distribution**.
 
-The following table gives the quantile $z_p$ such that ${\displaystyle X\sim {\mathcal {N}}(\mu ,\sigma ^{2})}$ will lie in the range $\displaystyle \mu \pm z_{p}\sigma$ with a specified probability $p$:
+The following table gives the quantile $$z_p$$ such that $${\displaystyle X\sim {\mathcal {N}}(\mu ,\sigma ^{2})}$$ will lie in the range $$\displaystyle \mu \pm z_{p}\sigma$$ with a specified probability $$p$$:
 
-| $p$  | $z_p$ |
+| $$p$$  | $$z_p$$ |
 | :--: | :---: |
 | 0.80 | 1.282 |
 | 0.90 | 1.645 |
