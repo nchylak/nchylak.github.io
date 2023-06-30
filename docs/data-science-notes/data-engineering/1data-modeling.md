@@ -38,7 +38,7 @@ nav_order: 1
 * Data marts do not need to contain atolic data (can be aggregated) as the original atomic data can still be access from within the same DWH
 * The Inmon approach is **top-down**, as opposed to Kimball's
 
- ![inmon](../../../assets/inmon.png)
+ ![inmon](../../../assets/images/inmon.png)
 
 ## Wide tables (or OBT for one big table)
 

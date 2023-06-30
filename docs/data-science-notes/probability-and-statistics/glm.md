@@ -13,7 +13,7 @@ nav_order: 3
 
 $$g(Y)$$ = model = $$X\beta$$ + $$\epsilon$$ where
 
-* $$X&beta;$$: systematic component
+* $$X\beta$$: systematic component
 * $$Y$$: random component
 * $$g$$: link function, i.e. the link between the systematic and the random component, verifies:
   * $$E(Y)$$= $$\mu$$ = $$g^{-1}(X\beta)$$ 

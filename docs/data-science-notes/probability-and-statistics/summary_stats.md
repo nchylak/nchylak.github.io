@@ -87,7 +87,7 @@ A commonly used rule says that a data point is an **outlier** if it is more than
 
 They are also called **boxplots**.
 
-![whisker plot](../../../assets/whisker_plot.PNG)
+![whisker plot](../../../assets/images/whisker_plot.PNG)
 
 ## Variance and standard deviation
 
