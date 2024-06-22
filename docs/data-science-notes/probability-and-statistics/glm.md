@@ -27,7 +27,7 @@ Logistic regression is a type of GLM where:
 * Random component:  Y follows a binomial distribution
 * Link: $$logit(p) = ln(p / (1-p))$$
 
-So, $$\pi / (1- \pi) = exp(\beta_0) * exp(\beta_1x_1) * ...$$
+So, $$\pi / (1- \pi) = e^{\beta_0} * e^{\beta_1x_1} * ...$$
 
 ## Poisson regression
 
@@ -36,7 +36,7 @@ Type of GLM where:
 - Random component:  Y follows a poisson (count) distribution
 - Link: $$ln(\lambda)$$
 
-So, $$\lambda = exp(\beta_0) * exp(\beta_1x_1) * ...$$
+So, $$\lambda = e^{\beta_0} * e^{\beta_1x_1} * ...$$
 
 
 

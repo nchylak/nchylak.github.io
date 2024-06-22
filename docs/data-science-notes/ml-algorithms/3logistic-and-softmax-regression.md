@@ -17,7 +17,7 @@ Just like a linear regression model, a logistic regression model computes a weig
 
 The logistic function is a sigmoid function (i.e. S-shaped) that outputs a number between 0 and 1: 
 
-$$\sigma(t) = \dfrac{1}{1 + \exp(-t)}$$ 
+$$\sigma(t) = \dfrac{1}{1 + e^{-t}}$$
 
 The probability of pertaining to the positive class is  calculated as  $$\hat{p} = \sigma(\boldsymbol{\theta}^T \mathbf{x})$$
 
