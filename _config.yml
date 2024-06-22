@@ -1,9 +1,7 @@
 title: Nadia Chylak
 description: My GitHub page!
 theme: just-the-docs
-# remote_theme: "pmarsceill/just-the-docs"
 url: https://https://nchylak.github.io/
 math: mathjax
 plugins:
   - jemoji
-
