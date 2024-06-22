@@ -224,7 +224,7 @@ for i, (name, group) in enumerate(groupby_object):
 
 ### The split-apply-combine strategy
 
-![](../../../assets/images/split_apply_combine.PNG)
+![](../../../../../../assets/images/split_apply_combine.PNG)
 
 ## Arithmetic
 

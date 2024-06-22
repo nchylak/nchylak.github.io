@@ -49,7 +49,7 @@ The **cumulative distribution function** is a function that gives the probabilit
 
 ### Discrete probability distributions
 
-![Discrete probability distributions](../../../assets/images/discrete_proba.jpg)
+![Discrete probability distributions](../../../../../../assets/images/discrete_proba.jpg)
 
 ```python
 import scipy.stats as st
@@ -78,7 +78,7 @@ cum_prob = st.hypergeom.cdf(x, M, n, N)
 
 ### Continuous probability distributions
 
-![Continuous probability distributions](../../../assets/images/continuous_proba.jpg)
+![Continuous probability distributions](../../../../../../assets/images/continuous_proba.jpg)
 
 ```python
 import scipy.stats as st
@@ -90,13 +90,13 @@ cum_prob = st.norm.cdf(x, loc=0, scale=1)
 
 ### Relationship between distributions
 
-![](../../../assets/images/rel_dist.PNG)
+![](../../../../../../assets/images/rel_dist.PNG)
 
 ## More on the normal distribution
 
 The probability density function of the normal distribution is as follows:
 
-![PDF of normal distribution](../../../assets/images/normal_dist.PNG)
+![PDF of normal distribution](../../../../../../assets/images/normal_dist.PNG)
 
 Notation: $${\mathcal {N}}(\mu ,\sigma ^{2})$$
 

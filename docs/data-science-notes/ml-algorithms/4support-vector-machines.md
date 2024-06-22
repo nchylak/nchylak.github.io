@@ -19,7 +19,7 @@ Separate the two classes by a line that stays as far away from the training inst
 
 New training instances outside of the street will not affect the street itself, i.e. the decision boudary, as this boundary is fully determined by the training instances located right on the edge of the street. **These instances are called the support vectors**.
 
-![SVM](../../../assets/images/svm.jpg)
+![SVM](../../../../../../assets/images/svm.jpg)
 
 :exclamation: SVMs require features to be scaled.
 

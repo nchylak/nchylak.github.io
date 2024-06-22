@@ -102,7 +102,7 @@ plt.show()
 ```
 
 
-![png](../../../assets/images/output_9_0.png)
+![png](../../../../../../assets/images/output_9_0.png)
 
 
 These learning curves are typical of an underfitting model. Both curves have reached a plateau; they are close and fairly high.

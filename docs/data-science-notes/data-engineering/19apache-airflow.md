@@ -269,8 +269,8 @@ https://airflow.apache.org/docs/apache-airflow/stable/templates-ref.html#variabl
 COPY_SQL = """
 COPY {}
 FROM '{}'
-ACCESS_KEY_ID '{{}}'
-SECRET_ACCESS_KEY '{{}}'
+ACCESS_KEY_ID '{% raw %}{{}}{% endraw %}'
+SECRET_ACCESS_KEY '{% raw %}{{}}{% endraw %}'
 IGNOREHEADER 1
 DELIMITER ','
 """
@@ -278,7 +278,7 @@ DELIMITER ','
 COPY_MONTHLY_TRIPS_SQL = COPY_SQL.format(
     "trips",
     "s3://udacity-dend/data-pipelines/divvy/partitioned/{year}/{month}/divvy_trips.csv"
-) # the first set of {} is removed from {{}} as no arg is provided
+) # the first set of {} is removed from {% raw %}{{}}{% endraw %} as no arg is provided
 
 def load_trip_data_to_redshift(*args, **kwargs):
     aws_hook = AwsHook("aws_credentials")

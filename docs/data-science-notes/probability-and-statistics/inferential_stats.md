@@ -17,7 +17,7 @@ In Statistics, to infer the value of an unknown parameter we use **estimators**.
 
 For example, the sample mean ($$\bar x​$$) is a point estimation of the population’s mean ($$\mu​$$). The same goes for the sample variance ($$s^2​$$) which is an estimate of the population’s variance ($$\sigma​$$).
 
-![](../../../assets/images/estimator.PNG)
+![](../../../../../../assets/images/estimator.PNG)
 
 All estimators have two properties, **efficiency** and **bias**:
 
@@ -64,11 +64,9 @@ All estimators have two properties, **efficiency** and **bias**:
 
 ###  Calculation of a confidence interval
 
+![](../../../../../../assets/images/confint.PNG)
 
-
-![](../../../assets/images/confint.PNG)
-
-![](../../../assets/images/margin_error.gif)
+![](../../../../../../assets/images/margin_error.gif)
 
 There are two situations when it is possible to calculate a confidence interval:
 
@@ -78,4 +76,4 @@ There are two situations when it is possible to calculate a confidence interval:
 
    [More on t-score vs z-score](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/t-score-vs-z-score/)
 
-![](../../../assets/images/tdist.PNG)
+  ![](../../../../../../assets/images/tdist.PNG)

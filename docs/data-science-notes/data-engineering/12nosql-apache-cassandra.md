@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Apache Cassandra
+title: NoSQL - Apache Cassandra
 parent: Data engineering
 grand_parent: Data science notes
 permalink: /docs/data-science-notes/data-engineering/12nosql-apache-cassandra/
